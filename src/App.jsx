@@ -1,6 +1,4 @@
-// import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
-import "./App.css";
 
 import {
   About,
@@ -15,8 +13,6 @@ import {
 } from "./components";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       <BrowserRouter>
@@ -24,6 +20,7 @@ function App() {
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar />
             <Hero />
+            <About />
           </div>
           {/* <About />
           <Experience />
